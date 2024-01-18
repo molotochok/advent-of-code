@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 let input = fs
-  .readFileSync("test.txt")
+  .readFileSync("input.txt")
   .toString('UTF8')
   .split(/\r?\n/);
 
